@@ -9,7 +9,9 @@
     "test:unit": "vitest --environment jsdom --root src/",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore; prettier --write . '!**/*-lock.yaml' --ignore-path .gitignore",
+    "lint": "pnpm run lint:prettier; pnpm run lint:eslint",
+    "lint:prettier": "prettier --write . '!**/*-lock.yaml' --ignore-path .gitignore",
+    "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
