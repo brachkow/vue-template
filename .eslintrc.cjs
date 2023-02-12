@@ -7,7 +7,6 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-essential',
-    'plugin:import/recommended',
     'plugin:lodash/recommended',
     'eslint:recommended',
     '@vue/eslint-config-typescript',
@@ -17,6 +16,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
   },
+  plugins: ['import'],
   rules: {
     'no-empty': ['error', { allowEmptyCatch: true }],
     'import/order': 1,
