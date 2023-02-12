@@ -1,3 +1,5 @@
+import '../src/assets/styles/tailwind.css';
+
 export const parameters = {
   backgrounds: {
     default: 'light',
