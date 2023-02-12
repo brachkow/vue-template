@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <component :is="tag" class="block rounded border p-4 bg-white">
+  <component :is="tag" class="block rounded border bg-white p-4">
     <slot />
   </component>
 </template>

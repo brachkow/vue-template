@@ -17,9 +17,9 @@
     :is="tag"
     class="inline-block rounded-xl px-4 py-1 transition-colors"
     :class="{
-      'bg-blue-600 hover:bg-blue-700 text-white': type === 'positive',
-      'bg-red-600  hover:bg-red-700  text-white': type === 'negative',
-      'bg-white hover:bg-gray-100 border text-black': !type,
+      'bg-blue-600 text-white hover:bg-blue-700': type === 'positive',
+      'bg-red-600  text-white  hover:bg-red-700': type === 'negative',
+      'border bg-white text-black hover:bg-gray-100': !type,
     }">
     <slot />
   </component>
