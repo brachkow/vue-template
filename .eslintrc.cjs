@@ -8,6 +8,7 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-essential',
     'plugin:import/recommended',
+    'plugin:lodash/recommended',
     'eslint:recommended',
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier',

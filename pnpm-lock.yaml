@@ -21,6 +21,7 @@ specifiers:
   autoprefixer: ^10.4.13
   eslint: ^8.22.0
   eslint-plugin-import: ^2.27.5
+  eslint-plugin-lodash: ^7.4.0
   eslint-plugin-storybook: ^0.6.10
   eslint-plugin-vue: ^9.3.0
   immer: ^9.0.19
@@ -67,6 +68,7 @@ devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
   eslint: 8.34.0
   eslint-plugin-import: 2.27.5_62tsymtiqxebhmxuag4hg3gx2m
+  eslint-plugin-lodash: 7.4.0_eslint@8.34.0
   eslint-plugin-storybook: 0.6.10_r4nhl7oghl6mgx4ukbxrwoekle
   eslint-plugin-vue: 9.9.0_eslint@8.34.0
   jsdom: 20.0.3
@@ -4657,6 +4659,16 @@ packages:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
+    dev: true
+
+  /eslint-plugin-lodash/7.4.0_eslint@8.34.0:
+    resolution: {integrity: sha512-Tl83UwVXqe1OVeBRKUeWcfg6/pCW1GTRObbdnbEJgYwjxp5Q92MEWQaH9+dmzbRt6kvYU1Mp893E79nJiCSM8A==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      eslint: '>=2'
+    dependencies:
+      eslint: 8.34.0
+      lodash: 4.17.21
     dev: true
 
   /eslint-plugin-prettier/4.2.1_u5wnrdwibbfomslmnramz52buy:
