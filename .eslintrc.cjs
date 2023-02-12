@@ -20,5 +20,6 @@ module.exports = {
   rules: {
     'no-empty': ['error', { allowEmptyCatch: true }],
     'import/order': 1,
+    'lodash/prefer-lodash-method': 0,
   },
 };
