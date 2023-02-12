@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@faker-js/faker': ^7.6.0
   '@rushstack/eslint-patch': ^1.1.4
   '@storybook/addon-essentials': ^7.0.0-beta.46
   '@storybook/addon-interactions': ^7.0.0-beta.46
@@ -20,7 +21,9 @@ specifiers:
   eslint: ^8.22.0
   eslint-plugin-storybook: ^0.6.10
   eslint-plugin-vue: ^9.3.0
+  immer: ^9.0.19
   jsdom: ^20.0.3
+  lodash: ^4.17.21
   npm-run-all: ^4.1.5
   pinia: ^2.0.28
   postcss: ^8.4.21
@@ -37,11 +40,14 @@ specifiers:
   vue-tsc: ^1.0.12
 
 dependencies:
+  immer: 9.0.19
+  lodash: 4.17.21
   pinia: 2.0.30_5yi2kxxaqg74pgvs6b75qdtvru
   vue: 3.2.47
   vue-router: 4.1.6_vue@3.2.47
 
 devDependencies:
+  '@faker-js/faker': 7.6.0
   '@rushstack/eslint-patch': 1.2.0
   '@storybook/addon-essentials': 7.0.0-beta.46_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-interactions': 7.0.0-beta.46_biqbaboplfbrettd7655fr4n2y
@@ -1574,6 +1580,11 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@faker-js/faker/7.6.0:
+    resolution: {integrity: sha512-XK6BTq1NDMo9Xqw/YkYyGjSsg44fbNwYRx7QK2CuoQgyy+f1rrTDHoExVM5PsyXCtfl2vs2vVJ0MN0yN6LppRw==}
+    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
     dev: true
 
   /@fal-works/esbuild-plugin-global-externals/2.1.2:
@@ -5233,6 +5244,10 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /immer/9.0.19:
+    resolution: {integrity: sha512-eY+Y0qcsB4TZKwgQzLaE/lqYMlKhv5J9dyd2RhhtGhNo2njPXDqU9XPfcNfa3MIDsdtZt5KlkIsirlo4dHsWdQ==}
+    dev: false
+
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -5878,7 +5893,6 @@ packages:
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: true
 
   /loose-envify/1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
