@@ -1,9 +1,8 @@
 import { describe, expect, test, beforeEach } from 'vitest';
-import { mount, type MountingOptions } from '@vue/test-utils';
-import type { VueWrapper } from '@vue/test-utils';
-import VButton from './VButton.vue';
+import { mount, type MountingOptions, VueWrapper } from '@vue/test-utils';
 import { faker } from '@faker-js/faker';
 import { produce } from 'immer';
+import VButton from './VButton.vue';
 
 describe('VButton', () => {
   let wrapper: VueWrapper<InstanceType<typeof VButton>>;

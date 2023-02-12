@@ -1,9 +1,8 @@
 import { describe, expect, test, beforeEach } from 'vitest';
-import { mount, type MountingOptions } from '@vue/test-utils';
-import type { VueWrapper } from '@vue/test-utils';
-import VCard from './VCard.vue';
+import { mount, type MountingOptions, VueWrapper } from '@vue/test-utils';
 import { faker } from '@faker-js/faker';
 import { produce } from 'immer';
+import VCard from './VCard.vue';
 
 describe('VCard', () => {
   let wrapper: VueWrapper<InstanceType<typeof VCard>>;

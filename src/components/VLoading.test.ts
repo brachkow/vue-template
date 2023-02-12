@@ -1,6 +1,5 @@
 import { describe, expect, test, beforeEach } from 'vitest';
-import { mount, type MountingOptions } from '@vue/test-utils';
-import type { VueWrapper } from '@vue/test-utils';
+import { mount, type MountingOptions, VueWrapper } from '@vue/test-utils';
 import VLoading from './VLoading.vue';
 
 describe('VLoading', () => {

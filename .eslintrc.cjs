@@ -7,6 +7,7 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-essential',
+    'plugin:import/recommended',
     'eslint:recommended',
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier',
@@ -14,5 +15,8 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest',
+  },
+  rules: {
+    'import/order': 1,
   },
 };
