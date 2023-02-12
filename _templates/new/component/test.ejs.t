@@ -3,11 +3,10 @@ to: src/components/<%= name %>.test.ts
 ---
 
 import { describe, expect, test, beforeEach } from 'vitest';
-import { mount, type MountingOptions } from '@vue/test-utils';
-import type { VueWrapper } from '@vue/test-utils';
-import <%= name %> from './<%= name %>.vue';
+import { mount, type MountingOptions, VueWrapper } from '@vue/test-utils';
 import { faker } from '@faker-js/faker';
 import { produce } from 'immer';
+import <%= name %> from './<%= name %>.vue';
 
 describe('<%= name %>', () => {
   let wrapper: VueWrapper<InstanceType<typeof <%= name %>>>;
