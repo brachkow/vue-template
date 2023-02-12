@@ -17,6 +17,7 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
+    'no-empty': ['error', { allowEmptyCatch: true }],
     'import/order': 1,
   },
 };
