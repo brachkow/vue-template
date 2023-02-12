@@ -1,3 +1,7 @@
+---
+to: src/components/<%= name %>.test.ts
+---
+
 import { describe, expect, test, beforeEach } from 'vitest';
 import { mount, type MountingOptions } from '@vue/test-utils';
 import type { VueWrapper } from '@vue/test-utils';
