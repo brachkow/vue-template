@@ -18,8 +18,8 @@ describe('VLoading', () => {
     mountComponent();
   });
 
-  const getLabelWrapper = () => wrapper.find('[data-test="label"]');
-  const getPulseWrapper = () => wrapper.find('[data-test="pulse"]');
+  const getLabelWrapper = () => wrapper.find('[data-testid="label"]');
+  const getPulseWrapper = () => wrapper.find('[data-testid="pulse"]');
 
   test('should render the component', () => {
     expect(getPulseWrapper().exists()).toBe(true);
