@@ -4,6 +4,9 @@ dependencies:
   pinia:
     specifier: ^2.1.4
     version: registry.npmjs.org/pinia@2.1.4(typescript@5.1.6)(vue@3.3.4)
+  uuid:
+    specifier: ^9.0.0
+    version: registry.npmjs.org/uuid@9.0.0
   vue:
     specifier: ^3.3.4
     version: registry.npmjs.org/vue@3.3.4
@@ -24,6 +27,9 @@ devDependencies:
   '@types/node':
     specifier: ^18.17.0
     version: registry.npmjs.org/@types/node@18.17.0
+  '@types/uuid':
+    specifier: ^9.0.2
+    version: registry.npmjs.org/@types/uuid@9.0.2
   '@vitejs/plugin-vue':
     specifier: ^4.2.3
     version: registry.npmjs.org/@vitejs/plugin-vue@4.2.3(vite@4.4.6)(vue@3.3.4)
@@ -603,6 +609,12 @@ packages:
     resolution: {integrity: sha512-Q5vtl1W5ue16D+nIaW8JWebSSraJVlK+EthKn7e7UcD4KWsaSJ8BqGPXNaPghgtcn/fhvrN17Tv8ksUsQpiplw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/tough-cookie/-/tough-cookie-4.0.2.tgz}
     name: '@types/tough-cookie'
     version: 4.0.2
+    dev: true
+
+  registry.npmjs.org/@types/uuid@9.0.2:
+    resolution: {integrity: sha512-kNnC1GFBLuhImSnV7w4njQkUiJi0ZXUycu1rUaouPqiKlXkh77JKgdRnTAp1x5eBwcIwbtI+3otwzuIDEuDoxQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/uuid/-/uuid-9.0.2.tgz}
+    name: '@types/uuid'
+    version: 9.0.2
     dev: true
 
   registry.npmjs.org/@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)(typescript@5.1.6):
@@ -4344,6 +4356,13 @@ packages:
     name: util-deprecate
     version: 1.0.2
     dev: true
+
+  registry.npmjs.org/uuid@9.0.0:
+    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/uuid/-/uuid-9.0.0.tgz}
+    name: uuid
+    version: 9.0.0
+    hasBin: true
+    dev: false
 
   registry.npmjs.org/validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz}
