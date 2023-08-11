@@ -10,7 +10,10 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "add:component": "pnpx hygen new component --folder components --name",
+    "add:view": "pnpx hygen new component --folder views --name",
+    "add:layout": "pnpx hygen new component --folder layouts --name"
   },
   "dependencies": {
     "pinia": "^2.1.4",
