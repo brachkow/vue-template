@@ -7,6 +7,9 @@ dependencies:
   dayjs:
     specifier: ^1.11.9
     version: registry.npmjs.org/dayjs@1.11.9
+  lodash:
+    specifier: ^4.17.21
+    version: registry.npmjs.org/lodash@4.17.21
   pinia:
     specifier: ^2.1.4
     version: registry.npmjs.org/pinia@2.1.4(typescript@5.1.6)(vue@3.3.4)
@@ -30,6 +33,9 @@ devDependencies:
   '@types/jsdom':
     specifier: ^21.1.1
     version: registry.npmjs.org/@types/jsdom@21.1.1
+  '@types/lodash':
+    specifier: ^4.14.197
+    version: registry.npmjs.org/@types/lodash@4.14.197
   '@types/node':
     specifier: ^18.17.0
     version: registry.npmjs.org/@types/node@18.17.0
@@ -604,6 +610,12 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.12.tgz}
     name: '@types/json-schema'
     version: 7.0.12
+    dev: true
+
+  registry.npmjs.org/@types/lodash@4.14.197:
+    resolution: {integrity: sha512-BMVOiWs0uNxHVlHBgzTIqJYmj+PgCo4euloGF+5m4okL3rEYzM2EEv78mw8zWSMM57dM7kVIgJ2QDvwHSoCI5g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/lodash/-/lodash-4.14.197.tgz}
+    name: '@types/lodash'
+    version: 4.14.197
     dev: true
 
   registry.npmjs.org/@types/node@18.17.0:
@@ -2941,7 +2953,6 @@ packages:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz}
     name: lodash
     version: 4.17.21
-    dev: true
 
   registry.npmjs.org/loupe@2.3.6:
     resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/loupe/-/loupe-2.3.6.tgz}
