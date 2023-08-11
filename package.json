@@ -16,6 +16,7 @@
     "add:layout": "pnpx hygen new component --folder layouts --name"
   },
   "dependencies": {
+    "@faker-js/faker": "^8.0.2",
     "dayjs": "^1.11.9",
     "pinia": "^2.1.4",
     "uuid": "^9.0.0",
