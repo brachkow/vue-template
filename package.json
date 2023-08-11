@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^8.0.2",
+    "@vueuse/core": "^10.3.0",
     "dayjs": "^1.11.9",
     "lodash": "^4.17.21",
     "pinia": "^2.1.4",

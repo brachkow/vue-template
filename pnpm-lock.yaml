@@ -4,6 +4,9 @@ dependencies:
   '@faker-js/faker':
     specifier: ^8.0.2
     version: registry.npmjs.org/@faker-js/faker@8.0.2
+  '@vueuse/core':
+    specifier: ^10.3.0
+    version: registry.npmjs.org/@vueuse/core@10.3.0(vue@3.3.4)
   dayjs:
     specifier: ^1.11.9
     version: registry.npmjs.org/dayjs@1.11.9
@@ -4244,6 +4247,12 @@ packages:
     version: 9.0.2
     dev: true
 
+  registry.npmjs.org/@types/web-bluetooth@0.0.17:
+    resolution: {integrity: sha512-4p9vcSmxAayx72yn70joFoL44c9MO/0+iVEBIQXe3v2h2SiAsEIo/G5v6ObFWvNKRFjbrVadNf9LqEEZeQPzdA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/web-bluetooth/-/web-bluetooth-0.0.17.tgz}
+    name: '@types/web-bluetooth'
+    version: 0.0.17
+    dev: false
+
   registry.npmjs.org/@types/yargs-parser@21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-21.0.0.tgz}
     name: '@types/yargs-parser'
@@ -4700,6 +4709,39 @@ packages:
     transitivePeerDependencies:
       - typescript
     dev: true
+
+  registry.npmjs.org/@vueuse/core@10.3.0(vue@3.3.4):
+    resolution: {integrity: sha512-BEM5yxcFKb5btFjTSAFjTu5jmwoW66fyV9uJIP4wUXXU8aR5Hl44gndaaXp7dC5HSObmgbnR2RN+Un1p68Mf5Q==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@vueuse/core/-/core-10.3.0.tgz}
+    id: registry.npmjs.org/@vueuse/core/10.3.0
+    name: '@vueuse/core'
+    version: 10.3.0
+    dependencies:
+      '@types/web-bluetooth': registry.npmjs.org/@types/web-bluetooth@0.0.17
+      '@vueuse/metadata': registry.npmjs.org/@vueuse/metadata@10.3.0
+      '@vueuse/shared': registry.npmjs.org/@vueuse/shared@10.3.0(vue@3.3.4)
+      vue-demi: registry.npmjs.org/vue-demi@0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
+  registry.npmjs.org/@vueuse/metadata@10.3.0:
+    resolution: {integrity: sha512-Ema3YhNOa4swDsV0V7CEY5JXvK19JI/o1szFO1iWxdFg3vhdFtCtSTP26PCvbUpnUtNHBY2wx5y3WDXND5Pvnw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@vueuse/metadata/-/metadata-10.3.0.tgz}
+    name: '@vueuse/metadata'
+    version: 10.3.0
+    dev: false
+
+  registry.npmjs.org/@vueuse/shared@10.3.0(vue@3.3.4):
+    resolution: {integrity: sha512-kGqCTEuFPMK4+fNWy6dUOiYmxGcUbtznMwBZLC1PubidF4VZY05B+Oht7Jh7/6x4VOWGpvu3R37WHi81cKpiqg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@vueuse/shared/-/shared-10.3.0.tgz}
+    id: registry.npmjs.org/@vueuse/shared/10.3.0
+    name: '@vueuse/shared'
+    version: 10.3.0
+    dependencies:
+      vue-demi: registry.npmjs.org/vue-demi@0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
 
   registry.npmjs.org/@yarnpkg/esbuild-plugin-pnp@3.0.0-rc.15(esbuild@0.18.20):
     resolution: {integrity: sha512-kYzDJO5CA9sy+on/s2aIW0411AklfCi8Ck/4QDivOqsMKpStZA2SsR+X27VTggGwpStWaLrjJcDcdDMowtG8MA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@yarnpkg/esbuild-plugin-pnp/-/esbuild-plugin-pnp-3.0.0-rc.15.tgz}
