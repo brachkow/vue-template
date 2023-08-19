@@ -12,5 +12,6 @@ My vue-template with production proved solutions (tested at «Fedya and Samat» 
 - [X] Tailwind (with 8px grid setup)
 - [ ] ESLint, Prettier, CI and pre-commit hooks
 - [ ] Unstyled component templates
+- [X] [hygen](https://github.com/jondot/hygen/) templates for boilerplate code
 
 Of course you can remove everything you don't need
