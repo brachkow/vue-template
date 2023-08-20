@@ -10,7 +10,7 @@ My vue-template with production proved solutions (tested at «Fedya and Samat» 
 - [ ] i18n
 - [ ] Vitest and visual regression test system
 - [X] Tailwind (with 8px grid setup)
-- [ ] ESLint, Prettier, CI and pre-commit hooks
+- [X] ESLint, Prettier, CI and pre-commit hooks
 - [ ] Unstyled component templates
 - [X] [hygen](https://github.com/jondot/hygen/) templates for boilerplate code
 
