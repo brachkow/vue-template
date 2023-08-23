@@ -10,7 +10,7 @@ My vue-template with production proved solutions (tested at «Fedya and Samat» 
 - [x] Typescript
 - [x] Must have libraries (axios, datejs, lodash and faker)
 - [x] Storybook
-- [ ] i18n
+- [x] i18n
 - [ ] Vitest and visual regression test system
 - [X] Tailwind (with 8px grid setup)
 - [X] ESLint, Prettier, CI and pre-commit hooks
