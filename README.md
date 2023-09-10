@@ -19,7 +19,7 @@ My vue-template with production proved solutions (tested at «Fedya and Samat» 
   - ⚠️ E2E
 - A lot of stuff that otherwise needed to write by hand
   - Good set of libraries (axios, datejs, lodash and faker)
-  - ⚠️ Unstyled components
+  - Unstyled components (via [PrimeVue](https://primevue.org/unstyled)
   - [hygen](https://github.com/jondot/hygen/) templates for boilerplate code
 - And other
   - i18n
