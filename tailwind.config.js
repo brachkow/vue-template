@@ -15,7 +15,11 @@ const spacing = (base, limit, unit = 'px') => {
 };
 
 export default {
-  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: [
+    './index.html',
+    './src/**/*.{vue,js,ts,jsx,tsx}',
+    './node_modules/primevue/**/*.{vue,js,ts,jsx,tsx}',
+  ],
   theme: {
     spacing: {
       inherit: 'inherit',
