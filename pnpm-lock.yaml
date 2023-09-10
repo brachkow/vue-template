@@ -23,6 +23,9 @@ dependencies:
   pinia:
     specifier: ^2.1.4
     version: registry.npmjs.org/pinia@2.1.4(typescript@5.1.6)(vue@3.3.4)
+  pinia-plugin-persistedstate:
+    specifier: ^3.2.0
+    version: registry.npmjs.org/pinia-plugin-persistedstate@3.2.0(pinia@2.1.4)
   primevue:
     specifier: ^3.34.1
     version: registry.npmjs.org/primevue@3.34.1(vue@3.3.4)
@@ -9515,6 +9518,17 @@ packages:
     version: 4.0.1
     engines: {node: '>=6'}
     dev: true
+
+  registry.npmjs.org/pinia-plugin-persistedstate@3.2.0(pinia@2.1.4):
+    resolution: {integrity: sha512-tZbNGf2vjAQcIm7alK40sE51Qu/m9oWr+rEgNm/2AWr1huFxj72CjvpQcIQzMknDBJEkQznCLAGtJTIcLKrKdw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/pinia-plugin-persistedstate/-/pinia-plugin-persistedstate-3.2.0.tgz}
+    id: registry.npmjs.org/pinia-plugin-persistedstate/3.2.0
+    name: pinia-plugin-persistedstate
+    version: 3.2.0
+    peerDependencies:
+      pinia: ^2.0.0
+    dependencies:
+      pinia: registry.npmjs.org/pinia@2.1.4(typescript@5.1.6)(vue@3.3.4)
+    dev: false
 
   registry.npmjs.org/pinia@2.1.4(typescript@5.1.6)(vue@3.3.4):
     resolution: {integrity: sha512-vYlnDu+Y/FXxv1ABo1vhjC+IbqvzUdiUC3sfDRrRyY2CQSrqqaa+iiHmqtARFxJVqWQMCJfXx1PBvFs9aJVLXQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/pinia/-/pinia-2.1.4.tgz}
