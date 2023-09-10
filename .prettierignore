@@ -3,3 +3,4 @@ pnpm-lock.yaml
 .prettierignore
 *.ejs.t
 *.md
+.npmrc
