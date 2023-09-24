@@ -8,6 +8,7 @@ import PrimeVue from 'primevue/config';
 import Tailwind from 'primevue/passthrough/tailwind';
 import ToastService from 'primevue/toastservice';
 import '@/style.css';
+// import pt from '@/pt'; Use this if you want to go completely unstyled
 
 const i18n = createI18n({
   legacy: false,
