@@ -1,9 +1,10 @@
-/** @type {import('tailwindcss').Config} */
+import { type Config } from 'tailwindcss';
+import { COLORS } from '@/constants';
 
-const spacing = (base, limit, unit = 'px') => {
+const spacing = (base: number, limit: number, unit: string = 'px') => {
   const output = {};
   let n = 1;
-  let value;
+  let value: number;
 
   do {
     value = base * n;
@@ -14,7 +15,7 @@ const spacing = (base, limit, unit = 'px') => {
   return output;
 };
 
-export default {
+const config: Config = {
   content: [
     './index.html',
     './src/**/*.{vue,js,ts,jsx,tsx}',
@@ -23,9 +24,9 @@ export default {
   theme: {
     spacing: {
       inherit: 'inherit',
-      0: 0,
-      1: 1,
-      4: 4,
+      '0': '0',
+      '1': '1px',
+      '4': '4px',
       ...spacing(8, 512),
     },
     screens: {
@@ -33,7 +34,13 @@ export default {
       tablet: '768px',
       desktop: '1024px',
     },
+    colors: {
+      transparent: 'transparent',
+      ...COLORS,
+    },
     extend: {},
   },
   plugins: [],
 };
+
+export default config;
