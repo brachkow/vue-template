@@ -2,6 +2,6 @@
 to: src/<%= folder %>/<%= name %>/index.ts
 ---
 
-import <%= name %> from './<%= name %>.vue';
+import <%= name %>, { type <%= name %>Props } from './<%= name %>.vue';
 
-export { <%= name %> };
+export { <%= name %>, type <%= name %>Props };
