@@ -1,5 +1,5 @@
 import { type Config } from 'tailwindcss';
-import { COLORS } from '@/constants';
+import { COLORS } from './src/constants';
 
 const spacing = (base: number, limit: number, unit: string = 'px') => {
   const output = {};
