@@ -30,10 +30,10 @@ jobs:
         run: pnpm install
 
       - name: Check types
-        run: pnpm run type:check
+        run: pnpm run check:type
 
       - name: Check format
-        run: pnpm run format:check
+        run: pnpm run check:format
 
       - name: Check lint
-        run: pnpm run lint:check
+        run: pnpm run check:lint
