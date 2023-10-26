@@ -1,5 +1,5 @@
 import { mount, VueWrapper } from '@vue/test-utils';
-import { VDefaultLayout, type VDefaultLayoutProps } from '.';
+import VDefaultLayout, { type VDefaultLayoutProps } from './VDefaultLayout.vue';
 import { faker } from '@faker-js/faker';
 import { useTitle } from '@vueuse/core';
 
