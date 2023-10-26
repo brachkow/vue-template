@@ -1,17 +1,17 @@
 <script lang="ts">
-  export interface VDefaultLayoutProps {
-    title?: string;
-  }
+export interface VDefaultLayoutProps {
+  title?: string;
+}
 </script>
 
 <script lang="ts" setup>
-  import { useTitle } from '@vueuse/core';
+import { useTitle } from '@vueuse/core';
 
-  const props = withDefaults(defineProps<VDefaultLayoutProps>(), {
-    title: 'App',
-  });
+const props = withDefaults(defineProps<VDefaultLayoutProps>(), {
+  title: 'App',
+});
 
-  useTitle(props.title);
+useTitle(props.title);
 </script>
 
 <template>
