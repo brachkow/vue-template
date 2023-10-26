@@ -2,7 +2,7 @@
 to: src/<%= folder %>/<%= name %>/<%= name %>.stories.ts
 ---
 import type { Meta, StoryObj } from '@storybook/vue3';
-import { <%= name %> } from '.';
+import <%= name %> from './<%= name %>.vue';
 
 const meta = {
   title: '<%= name %>',

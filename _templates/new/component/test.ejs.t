@@ -3,7 +3,7 @@ to: src/<%= folder %>/<%= name %>/<%= name %>.test.ts
 ---
 
 import { mount, VueWrapper } from '@vue/test-utils';
-import { <%= name %>, type <%= name %>Props } from '.';
+import <%= name %>, { type <%= name %>Props } from './<%= name %>.vue';
 import { faker } from '@faker-js/faker';
 
 const defaultProps: <%= name %>Props = {};
@@ -17,4 +17,3 @@ describe('<%= name %>', () => {
 
   test.todo('Example', () => {});
 });
-

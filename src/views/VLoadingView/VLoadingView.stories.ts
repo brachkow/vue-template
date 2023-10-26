@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/vue3';
-import { VLoadingView } from '.';
+import VLoadingView from './VLoadingView.vue';
 
 const meta = {
   title: 'View/VLoadingView',
