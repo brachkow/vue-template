@@ -8,6 +8,9 @@ dependencies:
   '@faker-js/faker':
     specifier: ^8.0.2
     version: registry.npmjs.org/@faker-js/faker@8.0.2
+  '@types/lodash-es':
+    specifier: ^4.17.10
+    version: registry.npmjs.org/@types/lodash-es@4.17.10
   '@vueuse/core':
     specifier: ^10.3.0
     version: registry.npmjs.org/@vueuse/core@10.3.0(vue@3.3.4)
@@ -17,9 +20,9 @@ dependencies:
   dayjs:
     specifier: ^1.11.9
     version: registry.npmjs.org/dayjs@1.11.9
-  lodash:
+  lodash-es:
     specifier: ^4.17.21
-    version: registry.npmjs.org/lodash@4.17.21
+    version: registry.npmjs.org/lodash-es@4.17.21
   pinia:
     specifier: ^2.1.4
     version: registry.npmjs.org/pinia@2.1.4(typescript@5.1.6)(vue@3.3.4)
@@ -73,9 +76,6 @@ devDependencies:
   '@types/jsdom':
     specifier: ^21.1.1
     version: registry.npmjs.org/@types/jsdom@21.1.1
-  '@types/lodash':
-    specifier: ^4.14.197
-    version: registry.npmjs.org/@types/lodash@4.14.197
   '@types/node':
     specifier: ^18.17.0
     version: registry.npmjs.org/@types/node@18.17.0
@@ -3944,7 +3944,7 @@ packages:
       ts-dedent: registry.npmjs.org/ts-dedent@2.2.0
       type-fest: registry.npmjs.org/type-fest@2.19.0
       vue: registry.npmjs.org/vue@3.3.4
-      vue-component-type-helpers: registry.npmjs.org/vue-component-type-helpers@1.8.10
+      vue-component-type-helpers: registry.npmjs.org/vue-component-type-helpers@1.8.22
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4177,11 +4177,18 @@ packages:
     version: 7.0.12
     dev: true
 
+  registry.npmjs.org/@types/lodash-es@4.17.10:
+    resolution: {integrity: sha512-YJP+w/2khSBwbUSFdGsSqmDvmnN3cCKoPOL7Zjle6s30ZtemkkqhjVfFqGwPN7ASil5VyjE2GtyU/yqYY6mC0A==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/lodash-es/-/lodash-es-4.17.10.tgz}
+    name: '@types/lodash-es'
+    version: 4.17.10
+    dependencies:
+      '@types/lodash': registry.npmjs.org/@types/lodash@4.14.197
+    dev: false
+
   registry.npmjs.org/@types/lodash@4.14.197:
     resolution: {integrity: sha512-BMVOiWs0uNxHVlHBgzTIqJYmj+PgCo4euloGF+5m4okL3rEYzM2EEv78mw8zWSMM57dM7kVIgJ2QDvwHSoCI5g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/lodash/-/lodash-4.14.197.tgz}
     name: '@types/lodash'
     version: 4.14.197
-    dev: true
 
   registry.npmjs.org/@types/mdx@2.0.6:
     resolution: {integrity: sha512-sVcwEG10aFU2KcM7cIA0M410UPv/DesOPyG8zMVk0QUDexHA3lYmGucpEpZ2dtWWhi2ip3CG+5g/iH0PwoW4Fw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/mdx/-/mdx-2.0.6.tgz}
@@ -8512,6 +8519,12 @@ packages:
       p-locate: registry.npmjs.org/p-locate@5.0.0
     dev: true
 
+  registry.npmjs.org/lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz}
+    name: lodash-es
+    version: 4.17.21
+    dev: false
+
   registry.npmjs.org/lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz}
     name: lodash.debounce
@@ -8528,6 +8541,7 @@ packages:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz}
     name: lodash
     version: 4.17.21
+    dev: true
 
   registry.npmjs.org/log-symbols@4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/log-symbols/-/log-symbols-4.1.0.tgz}
@@ -11964,10 +11978,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  registry.npmjs.org/vue-component-type-helpers@1.8.10:
-    resolution: {integrity: sha512-FJtmfw2Gn6eQ8kAVNEhw9nYIzWmVQJjdyQRtJXZ7tgXh/FoZhQnZ2KyxR+NuF9U4iZLBvSspeetIpnP9yxxyMw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/vue-component-type-helpers/-/vue-component-type-helpers-1.8.10.tgz}
+  registry.npmjs.org/vue-component-type-helpers@1.8.22:
+    resolution: {integrity: sha512-LK3wJHs3vJxHG292C8cnsRusgyC5SEZDCzDCD01mdE/AoREFMl2tzLRuzwyuEsOIz13tqgBcnvysN3Lxsa14Fw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/vue-component-type-helpers/-/vue-component-type-helpers-1.8.22.tgz}
     name: vue-component-type-helpers
-    version: 1.8.10
+    version: 1.8.22
     dev: true
 
   registry.npmjs.org/vue-component-type-helpers@1.8.4:
