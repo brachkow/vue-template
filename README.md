@@ -1,4 +1,4 @@
-**⚠️ Currently Work In Progress, not recommended to use**
+**⚠️ Currently Work In Progress**
 
 # vue-template
 
