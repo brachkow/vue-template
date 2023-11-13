@@ -14,7 +14,7 @@ My vue-template with production proved solutions (tested at «Fedya and Samat»,
   - Tailwind (with 8px grid setup and other handy changes)
   - Storybook
 - Testing
-  - ⚠️ Unit
+  - Unit
   - ⚠️ Visual regression
   - ⚠️ E2E
 - Linting
