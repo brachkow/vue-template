@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { useLoadingStore } from '@/stores/loading';
-import VLoadingView from './views/VLoadingView/VLoadingView.vue';
+import VLoadingView from '@/views/VLoadingView/VLoadingView.vue';
 import Toast from 'primevue/toast';
 
 const loadingStore = useLoadingStore();
