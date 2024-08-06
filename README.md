@@ -2,7 +2,7 @@
 
 # vue-template
 
-My vue-template with production proved solutions (tested at «Fedya and Samat», LOT2046 and my personal projects).
+My vue-template with production proved solutions (tested at «Fedya and Samat», and my personal projects).
 
 ## What's inside
 
